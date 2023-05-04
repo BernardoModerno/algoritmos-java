@@ -16,7 +16,9 @@ public class Main {
         queue.offer("Harold");
 
         // Verificar quem está na frente
-        System.out.printf(queue.peek());
+        //System.out.printf(queue.peek());
+
+        queue.poll();
 
         System.out.println(queue);
     }
