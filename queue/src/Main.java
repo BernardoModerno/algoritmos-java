@@ -15,8 +15,12 @@ public class Main {
         queue.offer("Steve");
         queue.offer("Harold");
 
+        System.out.println(queue.isEmpty());
+        System.out.println(queue.size());
+
         // Verificar quem está na frente
         //System.out.printf(queue.peek());
+        System.out.println(queue.contains("Harold"));
 
         queue.poll();
 
